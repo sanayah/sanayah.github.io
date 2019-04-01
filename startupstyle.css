@@ -1,0 +1,65 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+hr { 
+  display: flex;
+  width: 10%;
+  border-style: inset;
+  border-width: .5px;
+  border-color: orange;
+  justify-content: center;
+  align-content: middle;
+}
+
+h1 {
+	font-size: 20px;
+	display: flex;
+  align-items: middle; /* vertically aligned! */
+  justify-content: center;
+   margin-top: 215px;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif; 
+  color: white;
+  text-transform: uppercase;
+  background-image: url("startupheader.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000000;
+}
+
+header.startup hr {
+  margin-top: 175px;
+  margin-bottom: 20px; 
+}
+
+.btn {
+	background-color: orange;
+	border-color: orange;
+	text-transform: uppercase;
+	border-radius: 12px;
+	font-family: 'Montserrat', sans-serif; 
+}
+
+.btn-primary:hover {
+	background-color: #ee4b08;
+  border-color: #ee4b08;
+}
+
+.container {
+  display: flex;
+  align-items: center; /* vertically aligned! */
+  justify-content: center;
+}
+
+.header: {
+	display: flex;
+  align-items: center; /* vertically aligned! */
+  justify-content: center;
+}
