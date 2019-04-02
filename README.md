@@ -1,1 +1,0 @@
-# sanayah.github.io
